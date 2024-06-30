@@ -1,0 +1,176 @@
+.route-check {
+    background: #f1f1f1 !important
+}
+
+.error-message {
+    padding: 40px;
+    display: none;
+    margin: - 100px;
+}
+
+.show-invoice tr td {
+    color: #fff !important
+}
+
+.dropdown-toggle.nav-link:after,
+.dropdown-toggle.btn:after {
+    display: none !important
+}
+
+body,
+html {
+    font-family: 'Tajawal', sans-serif;
+    background: #eee !important
+}
+
+#kt_aside {
+    background: #fff
+}
+
+.menu-link {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media(min-width: 992px) {
+    .header-menu .menu-nav>.menu-item .menu-submenu>.menu-subnav .menu-content .menu-heading>.menu-text {
+        font-weight: 500;
+        font-size: 1.07rem;
+        text-transform: initial;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .header-menu .menu-nav>.menu-item .menu-submenu>.menu-subnav .menu-content .menu-inner>.menu-item>.menu-link .menu-text {
+        color: #3F4254;
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .aside-menu .menu-nav>.menu-item>.menu-heading .menu-text,
+    .aside-menu .menu-nav>.menu-item>.menu-link .menu-text {
+        font-size: 16px;
+        font-weight: bolder
+    }
+    .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item>.menu-heading .menu-text,
+    .aside-menu .menu-nav>.menu-item .menu-submenu .menu-item>.menu-link .menu-text {
+        font-size: 15px;
+        font-weight: bolder
+    }
+    #kt_content {
+        padding: 0 !important
+    }
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+
+button.dt-button,
+div.dt-button,
+a.dt-button,
+input.dt-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: .333em;
+    margin-bottom: .333em;
+    padding: .5em 1em;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 1.6em;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #505af4;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+    text-overflow: ellipsis;
+}
+
+
+/** dt-button buttons-csv buttons-html5 **/
+
+.buttons-html5:hover {
+    background-color: #505af4 !important;
+}
+
+.buttons-print:hover {
+    background-color: #505af4 !important;
+}
+
+.gj-timepicker-bootstrap [role=right-icon] button .gj-icon,
+.gj-timepicker-bootstrap [role=right-icon] button .material-icons {
+    position: absolute;
+    font-size: 21px;
+    top: 18px !important;
+    left: 5px !important;
+}
+
+.btn-group,
+.btn-group-vertical {
+    float: left !important;
+}
+
+thead {
+    background: #1B1B28;
+}
+
+thead th {
+    color: #fff !important
+}
+
+tbody td a {
+    width: 100% !important;
+    margin: 2px 0;
+    border-radius: 0!important
+}
+
+.style-reservation {
+    color: #3699FF;
+    font-size: 16px;
+    font-weight: bolder
+}
+
+@media(max-width:768px) {}
+
+.choices {
+    z-index: 2 !important
+}
+
+.title-page {
+    font-size: 20px !important;
+    border-radius: 0 !important;
+}
+
+@media print {
+    .none-print {
+        display: none;
+    }
+}
+
+.row.desgin-form-input {
+    background-color: black;
+}
+
+.row.desgin-form-input .form-group label {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*
+28501270
+*/
+.new_product_input_container,
+.product_input_container,
+.client_input_container {
+    display: none;
+}
